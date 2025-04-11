@@ -1,0 +1,19 @@
+:root {
+    --bg-color: #f8f9fa;
+    --text-color: #212529; 
+    
+    --toggle-bg: #dee2e6;  
+    --toggle-circle: #ffffff;  
+    --toggle-border: #ced4da;  
+    --toggle-active: #198754;   
+    
+    --shadow: rgba(0, 0, 0, 0.1);
+    --transition-time: 0.3s;
+}
+
+#theme-toggle:checked ~ .page {
+    --bg-color: #212529;  
+    --text-color: #f8f9fa;  
+    --toggle-bg: #495057;  
+    --toggle-border: #6c757d; 
+}
