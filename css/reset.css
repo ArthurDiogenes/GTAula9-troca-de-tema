@@ -9,3 +9,39 @@ body {
     line-height: 1.6;
     min-height: 100vh;
 }
+
+.page {
+    min-height: 100vh;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+
+    transition: background-color var(--transition-time) ease, color var(--transition-time) ease;
+    box-shadow: 0 4px 8px var(--shadow);
+}
+
+.content {
+    text-align: center;
+    max-width: 600px;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 2rem;
+    margin-top: 20px;
+}
+
+.info-chat {
+    line-height: 1.7;
+    font-size: 1.1rem;
+    opacity: 0.7;
+    transition: opacity var(--transition-time) ease;
+}
+
+.info-chat:hover {
+    opacity: 1;
+}
